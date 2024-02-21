@@ -26,19 +26,10 @@ load_dotenv()
 # assert os.environ.get("API_BASE")
 
 # get BAM api key
-GENAI_KEY="pak-3ZlEffPOIVje8NaLbihe5S8WRD6NbEdgK83IwPXAKbw"
+GENAI_KEY="GENAI KEY"
 GENAI_API="https://bam-api.res.ibm.com"
 
 # genai.api_key = os.environ.get("GENAI_API_KEY")
-
-# This is set to `azure`
-# openai.api_type = os.getenv("API_TYPE")
-
-# The base URL for your Azure OpenAI resource. e.g. "https://<your resource name>.openai.azure.com"
-# openai.api_base = os.getenv("API_BASE")
-
-# Currently Chat Completion API have the following versions available: 2023-03-15-preview
-# openai.api_version = os.getenv("API_VERSION")
 
 
 # ------------------ helpers ------------------
